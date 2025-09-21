@@ -1,0 +1,77 @@
+/* Base styles */
+body {
+  margin: 0;
+  font-family: "Avenir", "Proxima Nova", sans-serif;
+  background-color: #ffffff;
+  color: #002147;
+}
+
+/* Header */
+.site-header {
+  background-color: #8BD1CB; /* light blue */
+  padding: 10px 20px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  margin-right: 10px;
+}
+
+.logo h1 {
+  font-size: 1.2rem;
+  margin: 0;
+  color: #002147;
+}
+
+/* Hero section */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #FFC907; /* yellow */
+  padding: 40px 20px;
+  flex-wrap: wrap; /* ensures responsiveness */
+}
+
+.hero-text {
+  max-width: 500px;
+}
+
+.hero-text h2 {
+  font-size: 2.5rem;
+  color: #002147;
+  margin-bottom: 20px;
+}
+
+.hero-text p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: #002147;
+  color: #FFC907;
+  padding: 12px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.cta-button:hover {
+  background-color: #2E9DF7; /* brand blue */
+  color: white;
+}
+
+/* Hero image */
+.hero-image img {
+  max-width: 100%;
+  height: auto;
+  border: 5px solid #FFC907; /* yellow border like design */
+}
+
